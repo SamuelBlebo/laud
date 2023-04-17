@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 0 50px;
+  height: 70px;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu li {
+  list-style: none;
+  margin-right: 25px;
+  font-weight: 650;
+  font-size: 17px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+}
+.social {
+  margin-left: 10px;
+}
