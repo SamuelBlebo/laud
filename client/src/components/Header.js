@@ -2,6 +2,7 @@ import "./Header.css";
 import logo from "../assets/logo.svg";
 import { VscGithub, VscTwitter } from "react-icons/vsc";
 import { BsLinkedin } from "react-icons/bs";
+import { HiMenuAlt3 } from "react-icons/hi";
 
 export default function Header() {
   return (
@@ -11,11 +12,21 @@ export default function Header() {
       </div>
       <div className="menu">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="contact">Contact</a>
+          </li>
         </ul>
       </div>
       <div className="socials">
@@ -27,6 +38,9 @@ export default function Header() {
         </div>
         <div className="social icon">
           <BsLinkedin />
+        </div>
+        <div className="menu-icon icon">
+          <HiMenuAlt3 />
         </div>
       </div>
     </div>
