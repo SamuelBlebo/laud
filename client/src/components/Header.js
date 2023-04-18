@@ -2,9 +2,9 @@ import "./Header.css";
 import logo from "../assets/logo.svg";
 import { VscGithub, VscTwitter } from "react-icons/vsc";
 import { BsLinkedin } from "react-icons/bs";
-import { HiMenuAlt3 } from "react-icons/hi";
+import { HiMenuAlt3, HiMoon, HiSun } from "react-icons/hi";
 
-export default function Header() {
+export default function Header({ isDarkMode, toggleDarkMode }) {
   return (
     <div className="header">
       <div className="logo">
@@ -29,7 +29,7 @@ export default function Header() {
           </li>
         </ul>
       </div>
-      <div className="socials">
+      <div className="icons">
         <div className="social icon">
           <VscGithub />
         </div>
@@ -39,6 +39,14 @@ export default function Header() {
         <div className="social icon">
           <BsLinkedin />
         </div>
+        <div className=" theme icon">
+          {isDarkMode ? (
+            <HiSun className="sun" onClick={toggleDarkMode} />
+          ) : (
+            <HiMoon onClick={toggleDarkMode} />
+          )}
+        </div>
+
         <div className="menu-icon icon">
           <HiMenuAlt3 />
         </div>

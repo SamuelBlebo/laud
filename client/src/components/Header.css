@@ -20,7 +20,13 @@
   list-style: none;
   margin-right: 25px;
   font-weight: 650;
-  font-size: 17px;
+  font-size: 16px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .icon:hover,
@@ -32,16 +38,25 @@ a {
   text-decoration: none;
 }
 
-.socials {
-  display: flex;
-  flex-direction: row;
-}
 .social {
   margin-left: 10px;
 }
 
 .icon {
+  font-size: 18px;
+}
+
+.theme {
   font-size: 20px;
+  margin-left: 35px;
+  background-color: #d3d3d3;
+  padding: 3px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.theme .sun {
+  color: black;
 }
 
 .menu-icon {
@@ -59,12 +74,13 @@ a {
   }
   .menu-icon {
     display: block;
+    font-size: 24px;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .header {
-    padding: 0px 12px 0 0;
+    padding: 0px 20px 0 10px;
     height: 60px;
   }
   .logo img {
