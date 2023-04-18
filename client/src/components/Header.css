@@ -76,6 +76,9 @@ a {
     display: block;
     font-size: 24px;
   }
+  .theme {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -91,10 +94,15 @@ a {
   .social {
     display: none;
   }
+
   .menu {
+    display: none;
+  }
+  .theme {
     display: none;
   }
   .menu-icon {
     display: block;
+    margin-left: 10px;
   }
 }

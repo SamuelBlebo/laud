@@ -5,6 +5,12 @@ import { BsLinkedin } from "react-icons/bs";
 import { HiMenuAlt3, HiMoon, HiSun } from "react-icons/hi";
 
 export default function Header({ isDarkMode, toggleDarkMode }) {
+  const showMenu = () => {
+    const menu = document.getElementsByClassName("mobile-menu");
+    for (let i = 0; i < menu.length; i++) {
+      menu[i].style.display = "block";
+    }
+  };
   return (
     <div className="header">
       <div className="logo">
@@ -48,7 +54,7 @@ export default function Header({ isDarkMode, toggleDarkMode }) {
         </div>
 
         <div className="menu-icon icon">
-          <HiMenuAlt3 />
+          <HiMenuAlt3 onClick={showMenu} />
         </div>
       </div>
     </div>
