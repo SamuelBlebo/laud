@@ -1,6 +1,14 @@
 .hero {
   display: flex;
-  background-color: black;
   height: 850px;
-  padding: 0 50px;
+  padding: 0 20px;
+  border-bottom: 1px solid #919195;
+}
+
+.hero-container {
+  display: flex;
+  width: 100vw;
+  border-left: 1px solid #919195;
+  border-right: 1px solid #919195;
+  margin: 0 50px;
 }
