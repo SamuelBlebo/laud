@@ -1,14 +1,39 @@
 .hero {
   display: flex;
-  height: 850px;
+  height: 800px;
   padding: 0 20px;
   border-bottom: 1px solid #919195;
 }
 
 .hero-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100vw;
   border-left: 1px solid #919195;
   border-right: 1px solid #919195;
   margin: 0 50px;
+}
+
+.hero-item {
+  background: red;
+}
+
+.hero-section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 5;
+  height: 100%;
+}
+
+.hero-text-title h1 {
+  font-size: 100px;
+  font-weight: 900;
+  overflow: hidden;
+}
+
+.hero-section-image {
+  flex-grow: 3;
+  height: 100%;
 }

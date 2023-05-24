@@ -3,7 +3,7 @@ export default function Hero() {
   return (
     <div className="hero">
       <div className="hero-container">
-        <div className="hero-section-text">
+        <div className="hero-item hero-section-text">
           <div className="hero-text-title">
             <h1>App & Software Developer</h1>
           </div>
@@ -14,6 +14,7 @@ export default function Hero() {
             <button className="button">Contact Me</button>
           </div>
         </div>
+        <div className="hero-item hero-section-image"></div>
       </div>
     </div>
   );
