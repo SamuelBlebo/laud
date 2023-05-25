@@ -14,7 +14,17 @@ export default function Hero() {
             <button className="button">Contact Me</button>
           </div>
         </div>
-        <div className="hero-item hero-section-image"></div>
+        <div className="hero-item hero-section-image">
+          <div className="hero-text-title">
+            <h1>App & Software Developer</h1>
+          </div>
+          <div className="hero-sub-text">
+            <p>Laud Miller</p>
+          </div>
+          <div className="contact-button ">
+            <button className="button">Contact Me</button>
+          </div>
+        </div>
       </div>
     </div>
   );
