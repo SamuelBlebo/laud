@@ -16,21 +16,56 @@
 }
 
 .hero-section-text {
-  background: red;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
   flex: 4;
+  padding: 40px 0 0 200px;
 }
 
 .hero-text-title h1 {
-  font-size: 90px;
-  font-weight: 800;
+  font-size: 100px;
+  font-weight: 900;
+  margin: 0px;
+}
+
+.hero-sub-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero-sub-text p {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.hero-sub-text p::after {
+  content: "";
+  display: inline-block;
+  width: 120px; /* Adjust the width of the line as needed */
+  height: 1px; /* Adjust the thickness of the line as needed */
+  background-color: #919195;
+  margin: 0 0 5px 15px;
+}
+
+.hero-sub-text hr {
+  color: white;
+  border: 0.2px solid rgb(228, 228, 228);
+  width: 10%;
+  margin-left: 20px;
+}
+
+.button {
+  padding: 15px 30px;
+  background-color: #575757;
+  border: none;
+  color: white;
 }
 
 .hero-section-image {
-  background: gray;
+  /* background: gray; */
   height: 100%;
   flex: 3;
 }
