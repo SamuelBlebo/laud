@@ -11,6 +11,14 @@ function App() {
     setIsDarkMode(!isDarkMode);
   };
 
+  //Toggle Dark mode for Header
+  const header = document.getElementsByClassName("header")[0];
+  if (isDarkMode) {
+    header.style.backgroundColor = "#151515";
+  } else {
+    header.style.backgroundColor = "#fff";
+  }
+
   return (
     <div className={isDarkMode ? "dark-mode" : "light-mode"}>
       <div className="App ">

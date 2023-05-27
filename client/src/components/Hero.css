@@ -1,6 +1,6 @@
 .hero {
   display: flex;
-  height: 850px;
+  height: 700px;
   padding: 0 20px;
   border-bottom: 1px solid #919195;
 }
@@ -25,7 +25,7 @@
 }
 
 .hero-text-title h1 {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 900;
   margin: 0px;
 }
@@ -44,8 +44,8 @@
 .hero-sub-text p::after {
   content: "";
   display: inline-block;
-  width: 120px; /* Adjust the width of the line as needed */
-  height: 1px; /* Adjust the thickness of the line as needed */
+  width: 120px;
+  height: 1px;
   background-color: #919195;
   margin: 0 0 5px 15px;
 }
@@ -74,7 +74,7 @@
 
 .profile-image {
   transform: scaleX(-1);
-  width: 100%;
+  width: 90%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
