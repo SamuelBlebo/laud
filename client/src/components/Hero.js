@@ -1,4 +1,5 @@
 import "./Hero.css";
+import profile from "../assets/Profile.jpeg";
 export default function Hero() {
   return (
     <div className="hero">
@@ -14,7 +15,9 @@ export default function Hero() {
             <button className="button">Contact Me</button>
           </div>
         </div>
-        <div className="hero-item hero-section-image"></div>
+        <div className="hero-item hero-section-image">
+          <img src={profile} alt="Profile" />
+        </div>
       </div>
     </div>
   );
