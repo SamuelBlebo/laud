@@ -1,5 +1,5 @@
 import "./Hero.css";
-import profile from "../assets/Profile.jpeg";
+import profile from "../assets/Profile.png";
 export default function Hero() {
   return (
     <div className="hero">

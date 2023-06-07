@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "normalize.css";
 import Header from "./components/Header";
 import Menu from "./components/Menu";
@@ -12,12 +12,18 @@ function App() {
   };
 
   //Toggle Dark mode for Header
-  const header = document.getElementsByClassName("header")[0];
-  if (isDarkMode) {
-    header.style.backgroundColor = "#151515";
-  } else {
-    header.style.backgroundColor = "#fff";
-  }
+  useEffect(() => {
+    const header = document.getElementsByClassName("header")[0];
+    if (header) {
+      if (isDarkMode) {
+        header.style.backgroundColor = "#151515";
+      } else {
+        header.style.backgroundColor = "#fff";
+      }
+    } else {
+      console.error("Header element not found.");
+    }
+  }, [isDarkMode]);
 
   return (
     <div className={isDarkMode ? "dark-mode" : "light-mode"}>
