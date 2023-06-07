@@ -1,7 +1,11 @@
 .hero {
   display: flex;
+<<<<<<< HEAD
   height: 700px;
   padding: 0 20px;
+=======
+  height: 95vh;
+>>>>>>> 6cb911896cb85dd71b3bd14b642689e50a7b32cd
   border-bottom: 1px solid #919195;
 }
 
@@ -12,7 +16,7 @@
   width: 100vw;
   border-left: 1px solid #919195;
   border-right: 1px solid #919195;
-  margin: 0 50px;
+  margin: 0 5%;
 }
 
 .hero-section-text {
@@ -21,11 +25,11 @@
   justify-content: center;
   height: 100%;
   flex: 4;
-  padding: 40px 0 0 100px;
+  padding: 90px 0 0 8%;
 }
 
 .hero-text-title h1 {
-  font-size: 80px;
+  font-size: 90px;
   font-weight: 900;
   margin: 0px;
 }
@@ -44,8 +48,8 @@
 .hero-sub-text p::after {
   content: "";
   display: inline-block;
-  width: 120px; /* Adjust the width of the line as needed */
-  height: 1px; /* Adjust the thickness of the line as needed */
+  width: 120px;
+  height: 1px;
   background-color: #919195;
   margin: 0 0 5px 15px;
 }
@@ -65,16 +69,38 @@
 }
 
 .hero-section-image {
+<<<<<<< HEAD
   height: 90%;
+=======
+  height: 100%;
+>>>>>>> 6cb911896cb85dd71b3bd14b642689e50a7b32cd
   flex: 3;
   overflow: hidden;
-  border-radius: 30px;
-  padding-right: 50px;
+  padding-right: 8%;
 }
 
 .profile-image {
-  transform: scaleX(-1);
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
+  filter: grayscale(100%);
+}
+
+/* Media Queries */
+
+/* Laptop screens */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .hero-text-title h1 {
+    font-size: 70px;
+  }
+}
+
+/* Tablet screens */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* CSS rules for tablet screens */
+}
+
+/* Phone screens */
+@media screen and (max-width: 767px) {
+  /* CSS rules for phone screens */
 }
