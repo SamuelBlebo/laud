@@ -9,12 +9,8 @@
   border-bottom: 1px solid #919195;
   position: sticky;
   top: 0;
-<<<<<<< HEAD
-  z-index: 1;
-=======
   z-index: 999;
   background-color: #fff;
->>>>>>> 6cb911896cb85dd71b3bd14b642689e50a7b32cd
 }
 
 .logo img {

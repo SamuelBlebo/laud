@@ -1,11 +1,6 @@
 .hero {
   display: flex;
-<<<<<<< HEAD
-  height: 700px;
-  padding: 0 20px;
-=======
   height: 95vh;
->>>>>>> 6cb911896cb85dd71b3bd14b642689e50a7b32cd
   border-bottom: 1px solid #919195;
 }
 
@@ -69,11 +64,7 @@
 }
 
 .hero-section-image {
-<<<<<<< HEAD
-  height: 90%;
-=======
   height: 100%;
->>>>>>> 6cb911896cb85dd71b3bd14b642689e50a7b32cd
   flex: 3;
   overflow: hidden;
   padding-right: 8%;
