@@ -1,9 +1,21 @@
 import { useState } from "react";
 import { Dialog, Popover } from "@headlessui/react";
-import { MoonIcon, Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import {
+  SunIcon,
+  MoonIcon,
+  Bars3Icon,
+  XMarkIcon,
+} from "@heroicons/react/24/outline";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  // Handling darkmode togle
+  const [isActive, setIsActive] = useState(false);
+
+  const handleClick = () => {
+    setIsActive(!isActive);
+  };
 
   return (
     <header className="bg-white">
@@ -70,7 +82,15 @@ export default function Header() {
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <MoonIcon className="w-5 h-5" />
+          <button onClick={handleClick}>
+            {isActive ? (
+              <MoonIcon className="active w-5 h-5" />
+            ) : (
+              <SunIcon className="inactive w-5 h-5" />
+            )}
+          </button>
+          {/* <MoonIcon className="w-5 h-5" />
+          <SunIcon className="w-5 h-5" /> */}
         </div>
       </nav>
       <Dialog
