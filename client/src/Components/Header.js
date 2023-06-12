@@ -10,7 +10,7 @@ import {
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  // Handling darkmode togle
+  // Handling dark mode toggle
   const [isActive, setIsActive] = useState(false);
 
   const handleClick = () => {
@@ -20,7 +20,9 @@ export default function Header() {
   return (
     <header className="bg-white">
       <nav
-        className="mx-auto flex max-w-10xl items-center justify-between p-6 lg:px-8 border-b-2"
+        className={`bg-white text-gray-900 ${
+          isActive ? "dark bg-black text-white" : ""
+        } mx-auto flex max-w-10xl items-center justify-between p-6 lg:px-8 border-b-2`}
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -44,40 +46,22 @@ export default function Header() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a
-            href=" /#"
-            className="text-sm font-semibold leading-6 text-gray-900"
-          >
+          <a href=" /#" className="text-sm font-semibold leading-6 ">
             Home
           </a>
-          <a
-            href=" /#"
-            className="text-sm font-semibold leading-6 text-gray-900"
-          >
+          <a href=" /#" className="text-sm font-semibold leading-6 ">
             About
           </a>
-          <a
-            href=" /#"
-            className="text-sm font-semibold leading-6 text-gray-900"
-          >
+          <a href=" /#" className="text-sm font-semibold leading-6">
             Services
           </a>
-          <a
-            href=" /#"
-            className="text-sm font-semibold leading-6 text-gray-900"
-          >
+          <a href=" /#" className="text-sm font-semibold leading-6 ">
             Portfolio
           </a>
-          <a
-            href=" /#"
-            className="text-sm font-semibold leading-6 text-gray-900"
-          >
+          <a href=" /#" className="text-sm font-semibold leading-6 ">
             Blog
           </a>
-          <a
-            href=" /#"
-            className="text-sm font-semibold leading-6 text-gray-900"
-          >
+          <a href=" /#" className="text-sm font-semibold leading-6 ">
             Contact
           </a>
         </Popover.Group>
