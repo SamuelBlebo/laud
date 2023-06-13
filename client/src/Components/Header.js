@@ -6,31 +6,23 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
+import Logo from "../Assets/LogoLaud.png";
 
-export default function Header() {
+export default function Header({ isActive, onToggleDarkMode }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  // Handling darkmode togle
-  const [isActive, setIsActive] = useState(false);
-
-  const handleClick = () => {
-    setIsActive(!isActive);
-  };
 
   return (
     <header className="bg-white">
       <nav
-        className="mx-auto flex max-w-10xl items-center justify-between p-6 lg:px-8 border-b-2"
+        className={`bg-white text-gray-900 ${
+          isActive ? "dark bg-black text-white" : ""
+        } mx-auto flex max-w-10xl items-center justify-between p-6 lg:px-8 border-b-2`}
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
           <a href=" /#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
-            />
+            <img className="h-10 w-auto" src={Logo} alt="Logo" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -43,46 +35,46 @@ export default function Header() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <Popover.Group className="hidden lg:flex lg:gap-x-12">
+        <Popover.Group className="hidden lg:flex lg:gap-x-12 ">
           <a
             href=" /#"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 hover:text-red-500 "
           >
             Home
           </a>
           <a
             href=" /#"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 hover:text-red-500"
           >
             About
           </a>
           <a
             href=" /#"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 hover:text-red-500"
           >
             Services
           </a>
           <a
             href=" /#"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 hover:text-red-500"
           >
             Portfolio
           </a>
           <a
             href=" /#"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 hover:text-red-500"
           >
             Blog
           </a>
           <a
             href=" /#"
-            className="text-sm font-semibold leading-6 text-gray-900"
+            className="text-sm font-semibold leading-6 hover:text-red-500 "
           >
             Contact
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <button onClick={handleClick}>
+          <button onClick={onToggleDarkMode}>
             {isActive ? (
               <MoonIcon className="active w-5 h-5" />
             ) : (
