@@ -14,14 +14,13 @@ export default function Header({ isActive, onToggleDarkMode }) {
   return (
     <header className="bg-white">
       <nav
-        className={`bg-white text-gray-900 ${
-          isActive ? "dark bg-black text-white" : ""
+        className={` ${
+          isActive ? "dark bg-black text-white" : "bg-white text-gray-900"
         } mx-auto flex max-w-10xl items-center justify-between p-6 lg:px-8 border-b-2`}
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
           <a href=" /#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
             <img className="h-10 w-auto" src={Logo} alt="Logo" />
           </a>
         </div>
