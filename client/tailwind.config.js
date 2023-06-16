@@ -8,6 +8,10 @@ module.exports = {
       body: ["Poppins", "sans-serif"],
     },
     extend: {
+      spacing: {
+        "6/10": "60%",
+        "4/10": "40%",
+      },
       screens: {
         sm: "640px", // Small screens
         md: "768px", // Medium screens

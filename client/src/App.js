@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Header isActive={isActive} onToggleDarkMode={handleToggleDarkMode} />
-      <Hero />
+      <Hero isActive={isActive} />
     </div>
   );
 }

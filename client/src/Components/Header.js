@@ -12,7 +12,7 @@ export default function Header({ isActive, onToggleDarkMode }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white">
+    <header className="bg-white sticky top-0 z-50">
       <nav
         className={` ${
           isActive ? "dark bg-black text-white" : "bg-white text-gray-900"
@@ -37,37 +37,37 @@ export default function Header({ isActive, onToggleDarkMode }) {
         <Popover.Group className="hidden lg:flex lg:gap-x-12 ">
           <a
             href=" /#"
-            className="text-sm font-semibold leading-6 hover:text-red-500 "
+            className="text-sm font-semibold leading-6 hover:text-orange-600 "
           >
             Home
           </a>
           <a
             href=" /#"
-            className="text-sm font-semibold leading-6 hover:text-red-500"
+            className="text-sm font-semibold leading-6 hover:text-orange-600"
           >
             About
           </a>
           <a
             href=" /#"
-            className="text-sm font-semibold leading-6 hover:text-red-500"
+            className="text-sm font-semibold leading-6 hover:text-orange-600"
           >
             Services
           </a>
           <a
             href=" /#"
-            className="text-sm font-semibold leading-6 hover:text-red-500"
+            className="text-sm font-semibold leading-6 hover:text-orange-600"
           >
             Portfolio
           </a>
           <a
             href=" /#"
-            className="text-sm font-semibold leading-6 hover:text-red-500"
+            className="text-sm font-semibold leading-6 hover:text-orange-600"
           >
             Blog
           </a>
           <a
             href=" /#"
-            className="text-sm font-semibold leading-6 hover:text-red-500 "
+            className="text-sm font-semibold leading-6 hover:text-orange-600 "
           >
             Contact
           </a>
