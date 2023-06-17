@@ -13,10 +13,11 @@ module.exports = {
         "4/10": "40%",
       },
       screens: {
-        sm: "640px", // Small screens
-        md: "768px", // Medium screens
-        lg: "1024px", // Large screens
-        xl: "1280px", // Extra-large screens
+        sm: "640px", // Phone (up to 640px)
+        md: "768px", // Tablet (641px to 768px)
+        lg: "1024px", // Laptop (769px to 1024px)
+        xl: "1280px", // Desktop (1025px to 1280px)
+        "2xl": "1440px", // Large Screen (1281px and above)
       },
     },
   },
