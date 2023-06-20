@@ -6,9 +6,9 @@ export default function Theme({ isActive, onToggleDarkMode }) {
       <div className=" absolute bottom-3 right-3 rounded-lg w-9 h-9 bg-blue-500 flex justify-center lg:hidden xl:hidden 2xl:hidden">
         <button onClick={onToggleDarkMode}>
           {isActive ? (
-            <MoonIcon className="active w-5 h-5" />
-          ) : (
             <SunIcon className="inactive w-5 h-5" />
+          ) : (
+            <MoonIcon className="active w-5 h-5" />
           )}
         </button>
         {/* <MoonIcon className="w-5 h-5" />
