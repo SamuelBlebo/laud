@@ -5,6 +5,7 @@ import "./App.css";
 import Theme from "./Components/Theme";
 import Header from "./Components/Header";
 import Hero from "./Components/Hero";
+import About from "./Components/About";
 
 function App() {
   const [isActive, setIsActive] = useState(false);
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
       <Header isActive={isActive} onToggleDarkMode={handleToggleDarkMode} />
       <Hero isActive={isActive} />
+      <About isActive={isActive} />
       <Theme isActive={isActive} onToggleDarkMode={handleToggleDarkMode} />
     </div>
   );
