@@ -1,8 +1,8 @@
 export default function About({ isActive }) {
   return (
-    <div className={`${isActive ? "bg-black text-white " : ""}`}>
+    <div className={`${isActive ? "bg-black text-white " : ""} flex`}>
       <div className=" h-[80vh] lg:border-x lg:border-b lg:mx-14 lg:flex h-[60vh] lg:h-[100vh]">
-        <div className="image w-4/10 ">
+        <div className="image lg:w-4/10 ">
           <img
             src="https://fakeimg.pl/400x600?text=:)&font=museo"
             alt="Placeholder"
