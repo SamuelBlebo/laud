@@ -1,14 +1,14 @@
 export default function About({ isActive }) {
   return (
-    <div className={`${isActive ? "bg-black text-white " : ""} flex`}>
-      <div className=" h-[80vh] lg:border-x lg:border-b lg:mx-14 lg:flex h-[60vh] lg:h-[100vh]">
-        <div className="image lg:w-4/10 ">
+    <div className={`${isActive ? "bg-black text-white " : ""}`}>
+      <div className="lg:border-x lg:border-b lg:mx-14 lg:flex lg:h-[100vh]">
+        <div className="image lg:w-4/10 lg:order-last">
           <img
             src="https://fakeimg.pl/400x600?text=:)&font=museo"
             alt="Placeholder"
           />
         </div>
-        <div className="px-8 pt-10 lg:pt-0 md:pt-20 info flex flex-col justify-center items-center lg:w-6/10 lg:pl-24 xl:pl-24  lg:justify-center lg:items-start">
+        <div className="px-8 pt-10 lg:pt-0 md:pt-20 info flex flex-col justify-center items-center lg:w-6/10 lg:pl-24 xl:pl-24 lg:justify-center lg:items-start">
           <h2 className="text-3xl lg:text-6xl lg:text-start 2xl:text-8xl font-extrabold">
             App & Software Developer
           </h2>
@@ -16,7 +16,7 @@ export default function About({ isActive }) {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             magnam quam tempora unde blanditiis!
           </h5>
-          <p className="">
+          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
             deserunt quis doloremque provident natus, quod quam ad facere nisi
             praesentium incidunt voluptas repudiandae blanditiis ullam quisquam

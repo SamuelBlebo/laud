@@ -1,8 +1,8 @@
 export default function Hero({ isActive }) {
   return (
-    <div className={`${isActive ? "bg-black text-white " : ""} mb-10`}>
-      <div className=" flex flex-col lg:flex-row lg:border-x lg:border-b lg:mx-14 lg:flex h-[60vh] lg:h-[100vh]">
-        <div className="px-8 pt-10 lg:pt-0 md:pt-20 info flex flex-col justify-center items-center lg:w-6/10 lg:pl-24 xl:pl-24  lg:justify-center lg:items-start">
+    <div className={`${isActive ? "bg-black text-white " : ""}`}>
+      <div className="flex flex-col lg:flex-row lg:border-x lg:border-b lg:mx-14">
+        <div className="px-8 pt-10 lg:pt-0 md:pt-20 info flex flex-col justify-center items-center lg:w-6/10 lg:pl-24 xl:pl-24 lg:justify-center lg:items-start">
           <h2 className="text-3xl text-center lg:text-6xl lg:text-start 2xl:text-8xl font-extrabold">
             App & Software Developer
           </h2>
@@ -17,7 +17,7 @@ export default function Hero({ isActive }) {
             Contact
           </button>
         </div>
-        <div className="image lg:w-4/10 mt-20 lg:mt-0">
+        <div className="image lg:w-4/10 mt-20 lg:mt-0 mb-10 lg:order-last lg:mb-0">
           <img
             src="https://fakeimg.pl/720x920?text=:)&font=museo"
             alt="Placeholder"
