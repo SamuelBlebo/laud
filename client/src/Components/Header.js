@@ -12,7 +12,7 @@ export default function Header({ isActive, onToggleDarkMode }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="">
+    <header className={`${mobileMenuOpen ? "hidden" : ""}`}>
       <nav
         className={` ${
           isActive ? "dark bg-black text-white" : "bg-white text-gray-900"
@@ -92,15 +92,10 @@ export default function Header({ isActive, onToggleDarkMode }) {
       >
         <div className="fixed inset-0 z-10" />
         {/* Mobile Menu And Icon */}
-        <Dialog.Panel className=" mt-50 fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className=" fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href=" /#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
+              <img className="h-8 w-auto" src={Logo} alt="Logo" />
             </a>
             <button
               type="button"
@@ -118,19 +113,37 @@ export default function Header({ isActive, onToggleDarkMode }) {
                   href=" /#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Features
+                  Home
                 </a>
                 <a
                   href=" /#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Marketplace
+                  About
                 </a>
                 <a
                   href=" /#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Company
+                  Services
+                </a>
+                <a
+                  href=" /#"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  Portfolio
+                </a>
+                <a
+                  href=" /#"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  Blog
+                </a>
+                <a
+                  href=" /#"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  Contact
                 </a>
               </div>
               <div className="py-6">
