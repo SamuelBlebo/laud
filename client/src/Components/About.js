@@ -8,15 +8,15 @@ export default function About({ isActive }) {
             alt="Placeholder"
           />
         </div>
-        <div className="px-8 pt-32 lg:pt-0 md:pt-20 info flex flex-col lg:w-6/10 lg:pl-24 xl:pl-24 lg:justify-center lg:items-start">
+        <div className="px-4 pt-32 lg:pt-0 md:pt-20 info flex flex-col lg:w-6/10 lg:pl-24 xl:pl-24 lg:justify-center lg:items-start">
           <h2 className="text-3xl lg:text-6xl lg:text-start 2xl:text-8xl font-extrabold">
-            App & Software Developer
+            Get to know more about Laud,
           </h2>
-          <h5 className="text-xl font-bold text-zinc-700">
+          <h5 className=" my-8 text-xl font-medium text-zinc-300 ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             magnam quam tempora unde blanditiis!
           </h5>
-          <p className="mt-8 mb-20 ">
+          <p className=" mb-10 text-zinc-400 ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
             deserunt quis doloremque provident natus, quod quam ad facere nisi
             praesentium incidunt voluptas repudiandae blanditiis ullam quisquam
