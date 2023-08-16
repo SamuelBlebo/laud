@@ -8,7 +8,7 @@ export default function Hero() {
         <h1 className="text-[#fff] text-[34px] md:text-[52px] md:leading-[60px] lg:text-[70px] xl:text-[80px] font-bold lg:leading-[72px] xl:leading-[92px] lg:absolute lg:top-[260px] xl:absolute xl:top-[300px]">
           App & Software <br /> Developer
         </h1>
-        <div className="laud-text p-0 flex  justify-center items-center mt-[15px] md:mt-[40px] lg:absolute lg:top-[400px] xl:absolute xl:top-[500px]">
+        <div className="laud-text p-0 m-0 flex  lg:justify-center items-center mt-[15px] md:mt-[40px] lg:absolute lg:top-[400px] xl:absolute xl:top-[500px]">
           <h5 className="text-[#fff] ">LAUD MILLER</h5>
           <hr className="hr border-[1px] border-[#fff] border-x-[50px] mx-4 " />
         </div>
