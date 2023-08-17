@@ -3,8 +3,8 @@ import HeroImage from "../Assets/HeroImage.png";
 
 export default function Hero() {
   return (
-    <div className="background h-auto py-[60px] md:py-[120px] lg:h-[700px] xl:h-[800px] w-auto bg-[#000] lg:flex items-center justify-between">
-      <div className="hero-info px-[32px] md:px-[72px]  lg:pl-[80px] xl:pl-[110px] 2xl:pl-[250px] ">
+    <div className="background h-auto px-[32px] py-[60px] md:py-[120px] md:h-[1200px] lg:h-[700px] xl:h-[800px] w-auto bg-[#000] lg:flex items-center justify-between">
+      <div className="hero-info  md:px-[72px]  lg:pl-[80px] xl:pl-[110px] 2xl:pl-[250px] ">
         <h1 className="text-[#fff] text-[34px] md:text-[52px] md:leading-[60px] lg:text-[70px] xl:text-[80px] font-bold lg:leading-[72px] xl:leading-[92px] lg:absolute lg:top-[260px] xl:absolute xl:top-[300px]">
           App & Software <br /> Developer
         </h1>
