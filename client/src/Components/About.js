@@ -35,7 +35,7 @@ export default function About() {
             </button>
           </div>
         </div>
-        <div className=" mt-[60px] flex-1 xl:mr-[40px]">
+        <div className=" mt-[60px] flex-1 xl:mr-[40px] lg:mt-0">
           <img
             src={AboutMeImage}
             alt="About Me"
