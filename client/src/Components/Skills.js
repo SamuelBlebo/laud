@@ -7,7 +7,7 @@ import Ruby from "../Assets/ruby.png";
 
 export default function Skills() {
   return (
-    <div className="p-[40px] lg:flex  md:px-[110px] lg:px-[60px] xl:px-[150px] 2xl:px-[300px]">
+    <div className="p-[40px] lg:flex  md:px-[110px] lg:px-[60px] xl:px-[150px] 2xl:px-[300px] xl:pb-[140px]">
       <div className="lg:flex-1 lg:pr-[80px]">
         <h2 className="text-[32px] font-bold leading-[40px]  pb-[30px]">
           My development skills includes these technologies.{" "}

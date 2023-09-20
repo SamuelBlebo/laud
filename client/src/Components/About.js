@@ -4,7 +4,7 @@ import AboutMeImage from "../Assets/AboutMe.png";
 
 export default function About() {
   return (
-    <div className="px-[32px] py-[62px] flex  md:px-[110px] lg:px-[60px] lg:py-[100px] xl:px-[150px] xl:py-[100px] 2xl:px-[300px] 2xl:py-[100px]">
+    <div className="px-[32px] py-[62px] flex  md:px-[110px] lg:px-[60px] lg:py-[100px] xl:px-[150px] 2xl:px-[300px] 2xl:pt-[160px]">
       <div className="lg:flex  lg:flex-row-reverse lg:items-center lg:justify-center ">
         <div className="about-me-info flex-1">
           <div className="pb-[30px] flex items-center">
