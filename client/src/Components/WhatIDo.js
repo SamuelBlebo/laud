@@ -5,7 +5,7 @@ import Devops from "../Assets/devops 1.png";
 
 export default function WhatIDo() {
   return (
-    <div className="w-[100vw] h-auto bg-[#000] px-[34px] py-[62px] lg:px-[90px] xl:px-[160px] 2xl:px-[500px] lg:py-[150px]">
+    <div className="w-[100vw] h-auto bg-[#000] px-[60px] py-[62px] lg:px-[90px] xl:px-[160px] 2xl:px-[500px] lg:py-[150px]">
       
       <div className="pb-[30px] flex items-center">
         <div className="about-me-text border-2 border-[#E5540A] w-[50px] h-[40px] "></div>
