@@ -5,7 +5,7 @@ import Devops from "../Assets/devops 1.png";
 
 export default function WhatIDo() {
   return (
-    <div className="w-[100vw] h-auto bg-[#000] px-[18%] py-[90px] lg:px-[90px] xl:px-[160px] 2xl:px-[500px] lg:py-[150px]">
+    <div className="w-[100vw] h-auto bg-[#000] px-[18%] py-[90px] lg:px-[90px] xl:px-[160px] 2xl:px-[400px] lg:py-[150px]">
       <div>
         <div className="pb-[30px] flex items-center">
           <div className="about-me-text border-2 border-[#E5540A] w-[50px] h-[40px] "></div>
@@ -20,7 +20,7 @@ export default function WhatIDo() {
         </div>
 
         <div className="flex flex-col lg:flex-row ">
-          <div className="w-[300px] h-[400px] bg-[#1e1e1e] my-6 lg:mr-4 p-[25px]">
+          <div className="w-[300px] h-[400px] bg-[#1e1e1e] my-6 lg:mr-[50px] p-[25px]">
             <img src={SmartPhoneIcon} alt="Smart Phone Icon" />
             <h4 className="text-[20px] font-bold text-[#e5540a] mt-[20px]">
               Mobile <br /> Development
@@ -34,7 +34,7 @@ export default function WhatIDo() {
               Contact me
             </a>
           </div>
-          <div className="w-[300px] h-[400px] bg-[#1e1e1e] my-6 lg:mr-4 p-[25px]">
+          <div className="w-[300px] h-[400px] bg-[#1e1e1e] my-6 lg:mr-[50px] p-[25px]">
             <img src={Joystick} alt="Joystick Icon" />
             <h4 className="text-[20px] font-bold text-[#e5540a] mt-[20px]">
               Game Development
