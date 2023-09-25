@@ -6,7 +6,7 @@ import { BsArrowRight } from "react-icons/bs";
 export default function Portfolio() {
   return (
     <div>
-      <div className=" w-[90vw] h-[auto] mx-[15%] py-[80px] lg:flex lg:flex-row-reverse justify-end ">
+      <div className="w-[90vw] h-[auto] px-[90px] py-[80px] flex flex-col lg:flex-row-reverse justify-end lg:px-[190px]  2xl:px-[400px]  ">
         <div className="div-with-text">
           <div className="pb-[30px] flex items-center lg:mt-[40px]">
             <div className="about-me-text border-2 border-[#E5540A] w-[50px] h-[40px] "></div>
