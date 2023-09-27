@@ -7,6 +7,7 @@ import About from "./Components/About";
 import Skills from "./Components/Skills";
 import WhatIDo from "./Components/WhatIDo";
 import Portfolio from "./Components/Portfolio";
+import ContactMe from "./Components/ContactMe";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <WhatIDo />
       <Portfolio />
+      <ContactMe />
     </div>
   );
 }
