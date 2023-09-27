@@ -5,7 +5,7 @@ import Devops from "../Assets/devops 1.png";
 
 export default function WhatIDo() {
   return (
-    <div className="bg-[#000] flex flex-col px-[50%] py-[50px] items-center justify-center">
+    <div className="bg-[#000] flex flex-col px-[50%] py-[50px] lg:py-[100px] items-center justify-center lg:items-start lg:justify-start lg:px-[15%] 2xl:px-[22%] ">
       <div className="w-[300px]">
         <div className="pb-[30px] flex items-center">
           <div className="about-me-text border-2 border-[#E5540A] w-[50px] h-[40px] "></div>
@@ -17,7 +17,7 @@ export default function WhatIDo() {
           I have the capability to provide these Services.
         </h3>
       </div>
-      <div className=" ">
+      <div className="lg:flex lg:flex-row">
         <div className="w-[300px] h-[400px] bg-[#1e1e1e] my-6 lg:mr-[50px] p-[25px]">
           <img src={SmartPhoneIcon} alt="Smart Phone Icon" />
           <h4 className="text-[20px] font-bold text-[#e5540a] mt-[20px]">
