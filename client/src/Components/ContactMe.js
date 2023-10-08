@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { BsTelephoneFill } from "react-icons/bs";
 
+import ContactMeImage from "../Assets/ContactMe.png";
+
 export default function ContactMe() {
   const [state, setState] = useState({
     name: "",
@@ -20,15 +22,15 @@ export default function ContactMe() {
   };
 
   return (
-    <div className="bg-[#000] px-[16%] py-[50px]">
-      <div className="">
+    <div className="bg-[#000] px-[16%] py-[50px] xl:flex xl:items-center">
+      <div className="xl:w-[70%] xl:my-[50px]">
         <div className="pb-[30px] flex items-center">
           <div className="about-me-text border-2 border-[#E5540A] w-[50px] h-[40px] "></div>
           <h3 className="text-[#fff] bg-[#000] m-[-40px] p-[2.5px]">
             Contact Me
           </h3>
         </div>
-        <div className="bg-[#1E1E1E] w-[70vw] rounded-[15px] flex justify-between items-center px-[20px] py-[10px]">
+        <div className="bg-[#1E1E1E] w-[100%] xl:w-[70%] rounded-[15px] flex justify-between items-center px-[20px] py-[10px]">
           <div className="bg-[#E5540A] w-[40px] h-[40px] rounded-[50%] flex items-center justify-center">
             <BsTelephoneFill />
           </div>
@@ -38,7 +40,7 @@ export default function ContactMe() {
             </h3>
           </div>
         </div>
-        <div className="bg-[#1E1E1E] w-[70vw] rounded-[15px] mt-[20px] flex justify-between items-center px-[20px] py-[10px]">
+        <div className="bg-[#1E1E1E] w-[100%] xl:w-[70%]  rounded-[15px] mt-[20px] flex justify-between items-center px-[20px] py-[10px]">
           <div className="bg-[#E5540A] w-[40px] h-[40px] rounded-[50%] flex items-center justify-center">
             <BsTelephoneFill />
           </div>
@@ -61,7 +63,7 @@ export default function ContactMe() {
               placeholder="Name"
               onChange={handleInputChange}
               required
-              className="mt-[20px] w-[70vw] h-[50px] px-[20px] rounded-[10px] text-[#FFF] bg-[#1E1E1E]"
+              className="mt-[20px] w-[100%] xl:w-[70%]  h-[50px] px-[20px] rounded-[10px] text-[#FFF] bg-[#1E1E1E]"
             />
             <input
               type="email"
@@ -71,7 +73,7 @@ export default function ContactMe() {
               placeholder="Email"
               onChange={handleInputChange}
               required
-              className="mt-[20px] w-[70vw] h-[50px] px-[20px] rounded-[10px] text-[#FFF] bg-[#1E1E1E]"
+              className="mt-[20px] w-[100%] xl:w-[70%]  h-[50px] px-[20px] rounded-[10px] text-[#FFF] bg-[#1E1E1E]"
             />
 
             <textarea
@@ -82,19 +84,21 @@ export default function ContactMe() {
               placeholder="Message"
               onChange={handleInputChange}
               required
-              className="mt-[20px] w-[70vw] px-[20px] rounded-[10px] text-[#FFF] bg-[#1E1E1E]"
+              className="mt-[20px] w-[100%] xl:w-[70%]  px-[20px] rounded-[10px] text-[#FFF] bg-[#1E1E1E]"
             ></textarea>
 
             <button
               type="submit"
-              className="bg-[#E5540A] mt-[20px] w-[70vw] px-[20px] h-[40px] rounded-[10px] "
+              className="bg-[#E5540A] mt-[20px] w-[100%] xl:w-[70%]  px-[20px] h-[40px] rounded-[10px] "
             >
               Submit
             </button>
           </form>
         </div>
       </div>
-      <div>Image</div>
+      <div className="my-[50px] xl:w-auto xl:p-[50px]">
+        <img src={ContactMeImage} alt="" />
+      </div>
     </div>
   );
 }
