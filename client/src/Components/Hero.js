@@ -3,7 +3,10 @@ import HeroImage from "../Assets/HeroImage.png";
 
 export default function Hero() {
   return (
-    <div className="background h-auto px-[32px] py-[60px] md:py-[120px] md:h-[1200px] lg:h-[700px] xl:h-[800px] w-auto bg-[#000] lg:flex items-center justify-between">
+    <div
+      id="Hero"
+      className="background h-auto px-[32px] py-[60px] md:py-[120px] md:h-[1200px] lg:h-[700px] xl:h-[800px] w-auto bg-[#000] lg:flex items-center justify-between"
+    >
       <div className="hero-info md:px-[72px]  lg:pl-[80px] xl:pl-[110px] 2xl:pl-[250px] ">
         <h1 className="text-[#fff] text-[40px] leading-[50px] text-center md:text-[52px] md:leading-[60px] lg:text-[70px] xl:text-[80px] lg:text-left font-bold lg:leading-[72px] xl:leading-[92px] lg:absolute lg:top-[260px] xl:absolute xl:top-[300px]">
           App & Software <br /> Developer
@@ -14,7 +17,7 @@ export default function Hero() {
         </div>
         <div className="flex justify-center lg:block">
           <button className="text-[#000] font-bold  bg-[#E5540A] my-[50px] px-[20px] py-[10px] lg:px-[40px] lg:py-[20px] lg:absolute lg:top-[500px] xl:absolute xl:top-[580px]">
-            Contact Me
+            <a href="#Contact">Contact Me</a>
           </button>
         </div>
       </div>

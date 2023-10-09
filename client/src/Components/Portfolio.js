@@ -9,7 +9,10 @@ import { BsArrowRight } from "react-icons/bs";
 
 export default function Portfolio() {
   return (
-    <div className="w-[90vw] h-[auto] flex  flex-col items-center justify-center px-[50%] py-[60px] lg:flex-row-reverse ">
+    <div
+      id="Portfolio"
+      className="w-[90vw] h-[auto] flex  flex-col items-center justify-center px-[50%] py-[60px] lg:flex-row-reverse "
+    >
       <div className="div-with-text">
         <div className="portfolioi-text pb-[30px] flex items-center lg:mt-[40px]">
           <div className="about-me-text border-2 border-[#E5540A] w-[50px] h-[40px] "></div>

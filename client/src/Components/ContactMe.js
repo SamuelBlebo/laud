@@ -22,7 +22,10 @@ export default function ContactMe() {
   };
 
   return (
-    <div className="bg-[#000] px-[16%] py-[50px] xl:flex xl:items-center">
+    <div
+      id="Contact"
+      className="bg-[#000] px-[16%] py-[50px] xl:flex xl:items-center"
+    >
       <div className="xl:w-[70%] xl:my-[50px]">
         <div className="pb-[30px] flex items-center">
           <div className="about-me-text border-2 border-[#E5540A] w-[50px] h-[40px] "></div>

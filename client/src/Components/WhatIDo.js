@@ -5,7 +5,10 @@ import Devops from "../Assets/devops 1.png";
 
 export default function WhatIDo() {
   return (
-    <div className="bg-[#000] flex flex-col px-[50%] py-[50px] lg:py-[100px] items-center justify-center lg:items-start lg:justify-start lg:px-[15%] 2xl:px-[22%] ">
+    <div
+      id="Services"
+      className="bg-[#000] flex flex-col px-[50%] py-[50px] lg:py-[100px] items-center justify-center lg:items-start lg:justify-start lg:px-[15%] 2xl:px-[22%] "
+    >
       <div className="w-[300px] mb-[30px]">
         <div className="pb-[30px] flex items-center">
           <div className="about-me-text border-2 border-[#E5540A] w-[50px] h-[40px] "></div>
@@ -28,7 +31,7 @@ export default function WhatIDo() {
             quis pariatur rem unde quod praesentium iure, ullam quam nostrum
             labore tempora dicta error
           </p>
-          <a href="/contact" className="text-[#e5540a] underline mt-[20px]">
+          <a href="#Contact" className="text-[#e5540a] underline mt-[20px]">
             Contact me
           </a>
         </div>
@@ -43,7 +46,7 @@ export default function WhatIDo() {
             labore tempora dicta error, laborum assumenda quas doloribus.
             Delectus, quas asperiores.
           </p>
-          <a href="/contact" className="text-[#e5540a] underline mt-[20px]">
+          <a href="#Contact" className="text-[#e5540a] underline mt-[20px]">
             Contact me
           </a>
         </div>
@@ -58,7 +61,7 @@ export default function WhatIDo() {
             labore tempora dicta error, laborum assumenda quas doloribus.
             Delectus, quas asperiores.
           </p>
-          <a href="/contact" className="text-[#e5540a] underline mt-[20px]">
+          <a href="#Contact" className="text-[#e5540a] underline mt-[20px]">
             Contact me
           </a>
         </div>
