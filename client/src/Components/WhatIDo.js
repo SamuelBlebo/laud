@@ -21,7 +21,7 @@ export default function WhatIDo() {
         </h3>
       </div>
       <div className="lg:flex lg:flex-row">
-        <div className="w-[300px] h-[400px] bg-[#1e1e1e] my-6 lg:mr-[50px] p-[25px]">
+        <div className="w-[300px] h-[400px] bg-[#1e1e1e] my-6 lg:mr-[50px] p-[25px] transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
           <img src={SmartPhoneIcon} alt="Smart Phone Icon" />
           <h4 className="text-[20px] font-bold text-[#e5540a] mt-[20px]">
             Mobile <br /> Development
@@ -35,7 +35,7 @@ export default function WhatIDo() {
             Contact me
           </a>
         </div>
-        <div className="w-[300px] h-[400px] bg-[#1e1e1e] my-6 lg:mr-[50px] p-[25px]">
+        <div className="w-[300px] h-[400px] bg-[#1e1e1e] my-6 lg:mr-[50px] p-[25px] transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
           <img src={Joystick} alt="Joystick Icon" />
           <h4 className="text-[20px] font-bold text-[#e5540a] mt-[20px]">
             Game Development
@@ -50,7 +50,7 @@ export default function WhatIDo() {
             Contact me
           </a>
         </div>
-        <div className="w-[300px] h-[400px] bg-[#1e1e1e] my-6 lg:mr-4 p-[25px]">
+        <div className="w-[300px] h-[400px] bg-[#1e1e1e] my-6 lg:mr-4 p-[25px] transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
           <img src={Devops} alt="Devops Icon" />
           <h4 className="text-[20px] font-bold text-[#e5540a] mt-[20px]">
             Software Development

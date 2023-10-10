@@ -20,7 +20,7 @@ export default function Skills() {
       </div>
       <div className="flex flex-row justify-center my-[50px] mr-[50px] ml-[20px] lg:flex-1 lg:mt-0">
         <div className="flex-1 pr-[10px]">
-          <div className="lg:flex lg:flex-1 mt-[20px] lg:mt-0 lg:justify-center">
+          <div className="lg:flex lg:flex-1 mt-[20px] lg:mt-0 lg:justify-center transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
             <div className="flex justify-center items-center bg-[#F7F7F7] hover:bg-[#E5540A] rounded-[20px] h-[120px] w-[120px] drop-shadow-2xl lg:h-[180px] lg:w-[180px]">
               <img
                 src={CSharp}
@@ -29,18 +29,18 @@ export default function Skills() {
               />
             </div>
           </div>
-          <div className="lg:flex lg:flex-1  mt-[20px] lg:mt-[40px] lg:justify-center">
-            <div className=" flex justify-center items-center bg-[#F7F7F7] hover:bg-[#E5540A] rounded-[20px] h-[120px] w-[120px] drop-shadow-2xl  lg:h-[180px] lg:w-[180px]">
+          <div className="lg:flex lg:flex-1  mt-[20px] lg:mt-[40px] lg:justify-center transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
+            <div className=" flex justify-center items-center bg-[#F7F7F7] hover:bg-[#E5540A] rounded-[20px] h-[120px] w-[120px] drop-shadow-2xl  lg:h-[180px] lg:w-[180px] ">
               <img
                 src={Java}
-                alt="Ruby Logo"
+                alt="Java Logo"
                 className="w-auto h-[76px] lg:h-[130px]"
               />
             </div>
           </div>
         </div>
         <div className="flex-1 pt-7 ml-[20px] ">
-          <div className="lg:flex lg:flex-1 mt-[20px] lg:justify-start">
+          <div className="lg:flex lg:flex-1 mt-[20px] lg:justify-start transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
             <div className="flex justify-center items-center bg-[#F7F7F7] hover:bg-[#E5540A] rounded-[20px] h-[120px] w-[120px] drop-shadow-2xl  lg:h-[180px] lg:w-[180px]">
               <img
                 src={Python}
@@ -49,7 +49,7 @@ export default function Skills() {
               />
             </div>
           </div>
-          <div className="lg:flex lg:flex-1 mt-[20px] lg:mt-[40px] lg:justify-start">
+          <div className="lg:flex lg:flex-1 mt-[20px] lg:mt-[40px] lg:justify-start transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
             <div className="flex justify-center items-center bg-[#F7F7F7] hover:bg-[#E5540A] rounded-[20px] h-[120px] w-[120px] drop-shadow-2xl  lg:h-[180px] lg:w-[180px]">
               <img
                 src={Ruby}

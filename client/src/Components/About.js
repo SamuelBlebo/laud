@@ -29,16 +29,16 @@ export default function About() {
             on tekkinud mitmeid versioone, mõnikord kogemata, mõnikord
           </p>
           <div className="flex justify-center  lg:justify-start">
-            <button className="text-[#000] bg-[#E5540A] px-[20px] py-[10px]  mr-[20px] lg:px-[30px] lg:py-[15px] lg:mr-[20px]">
+            <button className="text-[#000] bg-[#E5540A] px-[20px] py-[10px]  mr-[20px] lg:px-[30px] lg:py-[15px] lg:mr-[20px] transition ease-in-out delay-120 hover:-translate-y-1 hover:scale-110 duration-150">
               <a href="#Contact">Contact Me</a>
             </button>
 
-            <button className="text-[#000]  bg-[#E5540A] px-[20px] py-[10px] lg:px-[30px] lg:py-[15px]">
+            <button className="text-[#000]  bg-[#E5540A] px-[20px] py-[10px] lg:px-[30px] lg:py-[15px] transition ease-in-out delay-120 hover:-translate-y-1 hover:scale-110 duration-150">
               Read More...
             </button>
           </div>
         </div>
-        <div className=" mt-[60px] flex-1 xl:mr-[40px] lg:mt-0">
+        <div className=" mt-[60px] flex-1 xl:mr-[40px] lg:mt-0 transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
           <img
             src={AboutMeImage}
             alt="About Me"

@@ -25,14 +25,14 @@ export default function Portfolio() {
         </div>
         <div className="apps lg:flex mt-[20px]">
           <div>
-            <div className="w-[330px] h-[330px] bg-[#d1d1d1] hover:bg-[#e5540a]  rounded-[24px] px-[18px] py-[18px]">
+            <div className="w-[330px] h-[330px] bg-[#d1d1d1] hover:bg-[#e5540a]  rounded-[24px] px-[18px] py-[18px] transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
               <img src={AdidasRetro} alt="" />
               <div className="flex flex-row items-center align-middle mt-[20px]">
                 <h3 className="mr-[140px] text-[18px]">Adidas Retro</h3>
                 <BsArrowRight />
               </div>
             </div>
-            <div className="w-[330px] h-[330px] bg-[#d1d1d1] hover:bg-[#e5540a] mt-[40px] rounded-[24px] px-[18px] py-[18px]">
+            <div className="w-[330px] h-[330px] bg-[#d1d1d1] hover:bg-[#e5540a] mt-[40px] rounded-[24px] px-[18px] py-[18px] transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
               <img src={Piyee} alt="" />
               <div className="flex flex-row items-center align-middle mt-[20px]">
                 <h3 className="mr-[190px] text-[18px]">Piyee</h3>
@@ -41,14 +41,14 @@ export default function Portfolio() {
             </div>
           </div>
           <div className="lg:ml-[40px]">
-            <div className="w-[330px] h-[330px] bg-[#d1d1d1] hover:bg-[#e5540a] mt-[30px] rounded-[24px] px-[18px] py-[18px] lg:mt-0">
+            <div className="w-[330px] h-[330px] bg-[#d1d1d1] hover:bg-[#e5540a] mt-[30px] rounded-[24px] px-[18px] py-[18px] lg:mt-0 transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
               <img src={DPLeeroy} alt="" />
               <div className="flex flex-row items-center align-middle mt-[20px]">
                 <h3 className="mr-[140px] text-[18px]">DP Leeroy</h3>
                 <BsArrowRight />
               </div>
             </div>
-            <div className="w-[330px] h-[330px] bg-[#d1d1d1] hover:bg-[#e5540a] mt-[40px] flex flex-col items-center justify-center rounded-[24px] px-[18px] py-[18px]">
+            <div className="w-[330px] h-[330px] bg-[#d1d1d1] hover:bg-[#e5540a] mt-[40px] flex flex-col items-center justify-center rounded-[24px] px-[18px] py-[18px] transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
               <img src={Task} alt="" />
               <div className="flex flex-row items-center align-middle mt-[20px]">
                 <h3 className="mr-[190px] text-[18px]">Task.io</h3>
@@ -59,14 +59,14 @@ export default function Portfolio() {
         </div>
       </div>
       <div className="div-without-text lg:mr-[40px]">
-        <div className="w-[330px] h-[330px] bg-[#d1d1d1] hover:bg-[#e5540a] mt-[30px] rounded-[24px] px-[18px] py-[18px]">
+        <div className="w-[330px] h-[330px] bg-[#d1d1d1] hover:bg-[#e5540a] mt-[30px] rounded-[24px] px-[18px] py-[18px] transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
           <img src={GomSoftware} alt="" />
           <div className="flex flex-row items-center align-middle mt-[20px]">
             <h3 className="mr-[140px] text-[18px]">Gom Software</h3>
             <BsArrowRight />
           </div>
         </div>
-        <div className="w-[330px] h-[auto] bg-[#d1d1d1] hover:bg-[#e5540a] mt-[42px] rounded-[24px] px-[18px] py-[18px]">
+        <div className="w-[330px] h-[auto] bg-[#d1d1d1] hover:bg-[#e5540a] mt-[42px] rounded-[24px] px-[18px] py-[18px] transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
           <img src={JkayApp} alt="" />
           <div className="flex flex-row items-center align-middle mt-[20px]">
             <h3 className="mr-[190px] text-[18px]">JkayApp</h3>

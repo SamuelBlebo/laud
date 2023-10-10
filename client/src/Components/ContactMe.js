@@ -99,7 +99,7 @@ export default function ContactMe() {
           </form>
         </div>
       </div>
-      <div className="my-[50px] xl:w-auto xl:p-[50px]">
+      <div className="my-[50px] xl:w-auto xl:p-[50px] transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
         <img src={ContactMeImage} alt="" />
       </div>
     </div>
