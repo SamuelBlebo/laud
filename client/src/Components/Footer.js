@@ -15,7 +15,7 @@ export default function Footer() {
           <h4>Copyright©2023</h4>
         </div>
         <div className="flex text-black text-[20px]  ">
-          <div className="w-[35px] h-[35px] bg-[#E5540A] rounded-[50%] flex justify-center items-center mr-[10px] transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
+          <div className="w-[35px]    m/+h-[35px] bg-[#E5540A] rounded-[50%] flex justify-center items-center mr-[10px] transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">
             <RiTwitterXFill />
           </div>
           <div className="w-[35px] h-[35px] bg-[#E5540A] rounded-[50%] flex justify-center items-center mr-[10px] transition ease-in-out delay-70 hover:-translate-y-1 hover:scale-110 duration-100">

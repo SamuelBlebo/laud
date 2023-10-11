@@ -10,7 +10,7 @@ export default function Skills() {
     <div className="px-[70px] lg:flex lg:justify-between lg:items-center md:px-[110px] xl:px-[150px] 2xl:px-[400px] xl:pb-[140px]">
       <div className="flex flex-col items-center lg:flex-1 lg:pr-[80px] lg:items-start">
         <h2 className="text-[26px] font-bold leading-[40px]  pb-[30px] lg:text-[32px]">
-          My development skills includes these technologies.
+          My development skills includes technologies.
         </h2>
         <p className="font-[16px] leading-[30px] pb-[30px] opacity-80">
           On teada-tuntud fakt, et lehe kujunduse vaatamisel juhib selle loetav
