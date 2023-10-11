@@ -9,6 +9,7 @@ import WhatIDo from "./Components/WhatIDo";
 import Portfolio from "./Components/Portfolio";
 import ContactMe from "./Components/ContactMe";
 import Footer from "./Components/Footer";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Portfolio />
       <ContactMe />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }
