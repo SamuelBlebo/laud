@@ -16,7 +16,7 @@ export default function Hero() {
           <hr className="hr border-[1px] border-[#fff] border-x-[20px] lg:border-x-[50px] mx-4 " />
         </div>
         <div className="flex justify-center lg:block">
-          <button className="text-[#000] font-bold  bg-[#E5540A] my-[50px] px-[20px] py-[10px] lg:px-[40px] lg:py-[20px] lg:absolute lg:top-[500px] xl:absolute xl:top-[580px]">
+          <button className="text-[#000] font-bold  bg-[#E5540A] my-[50px] px-[20px] py-[10px] lg:px-[40px] lg:py-[20px] lg:absolute lg:top-[500px] xl:absolute xl:top-[580px] transition ease-in-out delay-120 hover:-translate-y-1 hover:scale-110 duration-150">
             <a href="#Contact">Contact Me</a>
           </button>
         </div>
